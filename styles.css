@@ -1,0 +1,62 @@
+body{
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.title h1{
+color: rgb(114, 114, 114);
+font-size: 2rem;
+margin-bottom: 0;
+}
+.title h2{
+    color: darkgrey;
+    font-size: 1rem;
+    margin-top: 0; 
+    margin-bottom: 0;  
+}
+.title small{
+    color: rgb(204, 204, 204);
+}
+
+.botonera {
+    margin-top: 30px;
+    padding-top: 50px;
+    border: black 1px dotted;
+    padding-bottom: 60px;
+}
+.botonera button{
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    margin: 10px;
+    background-color: white;
+}
+#Piedra{
+    background-image: url(./piedra.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#Papel{
+    background-image: url(https://png.pngtree.com/png-vector/20191027/ourlarge/pngtree-realistic-paper-roll-vector-template-blank-white-toilet-paper-roll-mock-png-image_1886147.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#Tijera{
+    background-image: url(https://images.autods.com/ebay_images/3457-tijeras-para-cabello-65-con-cuchillas-extremadamente-afiladas-acero-440C-0c3962dd-b0c8-46c3-b05a-fb13963ce67c);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.puntaje{
+    font-size: 2rem;
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+.ganador{
+visibility: none;
+}
+
+
+
+
+

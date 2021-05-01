@@ -41,7 +41,7 @@ if ((puntajePc == 5)||(PuntajeJugador == 5)){
   if(puntajePc<PuntajeJugador){
     ganador.innerHTML=`Gana Jugador -- Jugador: ${PuntajeJugador} -- Pc: ${puntajePc}`
     resetContador()
-    setInterval(() => {
+    setTimeout(() => {
       ganador.innerHTML=""
     }, 5000);
   }else{
